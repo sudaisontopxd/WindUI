@@ -7450,7 +7450,7 @@ end
 
 o.UIElements.Main:WaitForChild"Main".Visible=false
 
-if A and A:IsA("VideoFrame") then
+if A:IsA"VideoFrame"then
 A.Visible=false
 end
 o.CanDropdown=false
